@@ -1,0 +1,152 @@
+body {
+  margin: auto;
+  padding: auto;
+  background-color: #e0ebe8;
+}
+
+header {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 400px;
+  background-image: url("../../assets/img/test5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#titel {
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-family: 'Indie Flower', cursive;
+}
+
+nav {
+  float: right;
+  width: 100%;
+  text-align: right;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 40px 30px 0px 0px;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: #000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color: #e0ebe8;
+  opacity: 0.5;
+}
+
+li #active {
+  color: #757575;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: auto;
+}
+
+#float_left {
+  margin-left: 250px;
+  float: left;
+  width: 500px;
+  height: 300px;
+}
+
+#float_left:hover {
+  opacity: 0.5;
+}
+
+#float_right {
+  margin-left: 250px;
+  margin-top: 50px;
+  float: left;
+  width: 500px;
+  height: 300px;
+}
+
+#float_right:hover {
+  opacity: 0.5;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+  height: 150px;
+  background-color: #cdd3d1;
+}
+
+p {
+  width: 100%;
+  position: relative;
+  top: 70px;
+  opacity: 0.6;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #555;
+}
+
+.fa {
+  padding: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.socialmedia {
+  background-color:;
+  position: relative;
+  top: 65px;
+  margin-left: 30px;
+}
+
+.fa:hover {
+    opacity: 0.5  ;
+    background-color: #
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.fa-envelope {
+  background: #137ad3;
+  color: white;
+}
+
+.fa-wordpress {
+  background: #21759b;
+  color: white;
+}
